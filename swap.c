@@ -14,7 +14,7 @@ for(int i=n;i<l;i++)
  a[m]=a[n];
  a[n]=large;
 }
-/*ssort* function/
+/*ssort function*/
 void ssort(int a[],int l)
 {
   for(int i=0;i<l;i++)
