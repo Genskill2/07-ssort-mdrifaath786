@@ -3,12 +3,13 @@
 void swap_max(int a[],int l,int n)
 {
  int large=a[n];
+ int m=n;
 for(int i=n;i<l;i++)
 {
   if(large<a[i])
   {
     large=a[i];
-    int m=i;
+    m=i;
   }
  }
  a[m]=a[n];
